@@ -1,15 +1,19 @@
-@use './base/reset';
-@use './base/fonts';
-@use './base/variables' as *;
-@use './base/mixins' as *;
+// @use './base/reset';
+// @use './base/fonts';
+// @use './base/variables' as *;
+// @use './base/mixins' as *;
 
-@import "../../icons/style.css";
+// @import "../../icons/style.css";
 
 body {
-  background-color: #000;
+  background-color: yellow;
   h1 {
     color: white;
     background-color: purple;
+  }
+  h2 {
+    color: purple;
+    background-color: white;
   }
   button {
     display: flex;
